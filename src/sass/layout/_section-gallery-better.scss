@@ -1,0 +1,130 @@
+.gallery {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+
+  background-image: linear-gradient(
+    $color-bg-section 0%,
+    $color-bg-section 40%,
+    #ffffff 40%,
+    #ffffff 100%
+  );
+}
+
+.gallery__list {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 1009px;
+  margin: 0 -2px -2px;
+
+  @media screen and (min-width: 480px) {
+    margin: 0 -3px -3px;
+  }
+
+  height: calc(122 / 320 * 100vw);
+
+  @media screen and (min-width: 480px) {
+    height: 187px;
+  }
+
+  @media screen and (min-width: 768px) {
+    height: 264px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    height: 430px;
+  }
+}
+
+.gallery__column {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  margin-left: 2px;
+  margin-right: 2px;
+
+  @media screen and (min-width: 480px) {
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+
+  &--wide {
+    flex-grow: 2;
+    top: 0;
+  }
+
+  &--1 {
+    top: 33%;
+  }
+
+  &--2 {
+    top: 20%;
+  }
+
+  &--4 {
+    top: 23%;
+  }
+
+  &--5 {
+    top: 12%;
+  }
+
+  &--6 {
+    top: 36%;
+  }
+}
+
+.gallery__photo {
+  width: 100%;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  border-radius: 14%;
+  overflow: hidden;
+
+  @media screen and (min-width: 480px) {
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+
+  &--big {
+    border-radius: 7%;
+  }
+
+  &--smaller {
+    width: calc(100% / 2 - 3px);
+  }
+
+  &.image-animate-clockwise {
+    animation-name: imageMoveClockwise;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    animation-fill-mode: forwards;
+    animation-delay: 0ms;
+  }
+
+  &.image-animate-counter-clockwise {
+    animation-name: imageMoveClockwise;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    animation-fill-mode: forwards;
+    animation-delay: 1000ms;
+  }
+
+  &.delay-5s {
+    animation-delay: 5000ms;
+  }
+}
+
+.gallery__image {
+  width: 100%;
+}
+
+.gallery__photo:first-child {
+  margin-top: 0;
+}

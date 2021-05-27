@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+      <form class="modal-form">
+        <p class="modal-form__title">We'll call U back</p>
+        <p class="modal-form__moto">
+          Just spend a couple of minutes to fill in Ur contact data
+        </p>
+        <div class="modal-form__input">
+          <label class="modal-form__label">
+            <span class="modal-form__caption">Name</span>
+
+            <svg class="modal-form__icon" width="23" height="23">
+              <use href="./images/icons/symbol-defs.svg#icon-person-form"></use>
+            </svg>
+            <input type="text" name="name" class="modal-form__field" />
+          </label>
+        </div>
+        <div class="modal-form__input">
+          <label class="modal-form__label">
+            <span class="modal-form__caption">Phone</span>
+
+            <svg class="modal-form__icon" width="23" height="23">
+              <use href="./images/icons/symbol-defs.svg#icon-phone-form"></use>
+            </svg>
+            <input type="tel" name="tel" class="modal-form__field" />
+          </label>
+        </div>
+        <div class="modal-form__input">
+          <label class="modal-form__label">
+            <span class="modal-form__caption">E-mail</span>
+
+            <svg class="modal-form__icon" width="23" height="23">
+              <use href="./images/icons/symbol-defs.svg#icon-email-form"></use>
+            </svg>
+            <input type="email" name="email" class="modal-form__field" />
+          </label>
+        </div>
+        <label class="modal-form__label">
+          <span class="modal-form__caption">Comments</span>
+          <textarea
+            name="comment"
+            class="modal-form__field modal-form__field--comment"
+            rows="6"
+            placeholder="Leave your comments here"
+          ></textarea>
+        </label>
+
+        <input
+          type="checkbox"
+          name="licence"
+          class="modal-form__checkbox visually-hidden"
+          id="licence-checkbox"
+        />
+        <label class="modal-form__licence-declaration" for="licence-checkbox">
+          I accept
+          <a href="##" class="modal-form__licence-link link">
+            the License agreement</a
+          >
+        </label>
+
+        <button
+          class="main-button modal__submit-btn button-glitter"
+          type="submit"
+        >
+          Submit
+        </button>
+
+        <button class="modal__close-btn" type="button" data-modal-close>
+          <svg class="modal__close-icon" width="18" height="18">
+            <use href="./images/icons/symbol-defs.svg#icon-close-modal"></use>
+          </svg>
+        </button>
+      </form>
+    </div>
+  </div>
+</html>

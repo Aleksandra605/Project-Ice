@@ -1,0 +1,178 @@
+@keyframes openMobileMenu {
+  0% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes toggleMenuButton {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1) rotate(180deg);
+  }
+}
+
+@keyframes icecreamAppear {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+
+  60% {
+    opacity: 1;
+    transform: scale(1.2) rotate(360deg);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1) rotate(360deg);
+  }
+}
+
+@keyframes animateGirl {
+  0% {
+    opacity: 0;
+    transform: scale(1);
+  }
+
+  25% {
+    opacity: 1;
+    transform: scale(1.5);
+  }
+
+  50% {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  75% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes animateOrderBtn {
+  0% {
+    opacity: 1;
+    transform: rotate(-16deg);
+  }
+
+  10% {
+    opacity: 1;
+    transform: rotate(16deg);
+  }
+
+  20% {
+    opacity: 1;
+    transform: rotate(-12deg);
+  }
+
+  30% {
+    opacity: 1;
+    transform: rotate(12deg);
+  }
+
+  40% {
+    opacity: 1;
+    transform: rotate(-8deg);
+  }
+
+  50% {
+    opacity: 1;
+    transform: rotate(8deg);
+  }
+
+  60% {
+    opacity: 1;
+    transform: rotate(-6deg);
+  }
+
+  70% {
+    opacity: 1;
+    transform: rotate(6deg);
+  }
+
+  80% {
+    opacity: 1;
+    transform: rotate(-4deg);
+  }
+
+  90% {
+    opacity: 1;
+    transform: rotate(4deg);
+  }
+
+  100% {
+    opacity: 1;
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes animateBtnGlitter {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+@keyframes imageMoveConterClockwise {
+  0% {
+    transform: translate(0, 0);
+  }
+
+  25% {
+    transform: translate(3%, 0);
+  }
+
+  50% {
+    transform: translate(3%, 3%);
+  }
+
+  75% {
+    transform: translate(0, 3%);
+  }
+
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes imageMoveClockwise {
+  0% {
+    transform: translate(0, 0);
+  }
+
+  25% {
+    transform: translate(3%, 0);
+  }
+
+  50% {
+    transform: translate(3%, 3%);
+  }
+
+  75% {
+    transform: translate(0, 3%);
+  }
+
+  100% {
+    transform: translate(0, 0);
+  }
+}

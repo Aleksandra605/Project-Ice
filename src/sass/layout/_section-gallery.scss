@@ -1,0 +1,108 @@
+// .gallery {
+//   margin-left: auto;
+//   margin-right: auto;
+//   text-align: center;
+//   background-repeat: no-repeat;
+//   background-position: center;
+//   background-size: contain;
+//   // max-width: 1280px;
+//   max-height: 430px;
+
+//   @media screen and (max-width: 479px) {
+//     height: 122px;
+//     background-image: url('../../src/images/gallery/img-mob-gallery@1x.png'),
+//       linear-gradient(
+//         $color-bg-section 0%,
+//         $color-bg-section 49px,
+//         #ffffff 49px,
+//         #ffffff 100%
+//       );
+
+//     @media screen and (min-device-pixel-ratio: 2),
+//       screen and (min-resolution: 192dpi),
+//       screen and (min-resolution: 2dppx) {
+//       background-image: url('../../src/images/gallery/img-mob-gallery@2x.png'),
+//         linear-gradient(
+//           $color-bg-section 0%,
+//           $color-bg-section 49px,
+//           #ffffff 49px,
+//           #ffffff 100%
+//         );
+//     }
+//   }
+
+//   @media screen and (min-width: 480px) and (max-width: 767px) {
+//     width: 100%;
+//     /*max-width: 480px;*/
+//     height: 122px;
+//     background-image: url('../../src/images/gallery/img-mob-gallery@1x.png'),
+//       linear-gradient(
+//         $color-bg-section 0%,
+//         $color-bg-section 49px,
+//         #ffffff 49px,
+//         #ffffff 100%
+//       );
+
+//     @media screen and (min-device-pixel-ratio: 2),
+//       screen and (min-resolution: 192dpi),
+//       screen and (min-resolution: 2dppx) {
+//       background-image: url('../../src/images/gallery/img-mob-gallery@2x.png'),
+//         linear-gradient(
+//           $color-bg-section 0%,
+//           $color-bg-section 49px,
+//           #ffffff 49px,
+//           #ffffff 100%
+//         );
+//     }
+//   }
+
+//   @media screen and (min-width: 768px) {
+//     width: 100%;
+//     /*max-width: 768px;*/
+//     height: 264px;
+//     background-image: url('../../src/images/gallery/img-tablet-gallery@1x.png'),
+//       linear-gradient(
+//         $color-bg-section 0%,
+//         $color-bg-section 105px,
+//         #ffffff 105px,
+//         #ffffff 100%
+//       );
+
+//     @media screen and (min-device-pixel-ratio: 2),
+//       screen and (min-resolution: 192dpi),
+//       screen and (min-resolution: 2dppx) {
+//       background-image: url('../../src/images/gallery/img-tablet-gallery@2x.png'),
+//         linear-gradient(
+//           $color-bg-section 0%,
+//           $color-bg-section 105px,
+//           #ffffff 105px,
+//           #ffffff 100%
+//         );
+//     }
+//   }
+
+//   @media screen and (min-width: 1280px) {
+//     width: 100%;
+//     // max-width: 1600px;
+//     height: 430px;
+//     background-image: url('../../src/images/gallery/img-desktop-gallery@1x.png'),
+//       linear-gradient(
+//         $color-bg-section 0%,
+//         $color-bg-section 172px,
+//         #ffffff 172px,
+//         #ffffff 100%
+//       );
+
+//     @media screen and (min-device-pixel-ratio: 2),
+//       screen and (min-resolution: 192dpi),
+//       screen and (min-resolution: 2dppx) {
+//       background-image: url('../../src/images/gallery/img-desktop-gallery@2x.png'),
+//         linear-gradient(
+//           $color-bg-section 0%,
+//           $color-bg-section 172px,
+//           #ffffff 172px,
+//           #ffffff 100%
+//         );
+//     }
+//   }
+// }

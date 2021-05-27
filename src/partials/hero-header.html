@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <section class="hero-section">
+    <div class="hero-container container" id="header">
+      <div class="hero-main-big-b"></div>
+      <div class="hero-main-im"></div>
+
+      <nav class="navigation-header">
+        <div class="header-mob">
+          <a href="#header" class="header-logo link">
+            <img
+              srcset="
+                ./images/hero-header/img-desktop-logo@1x.png 1x,
+                ./images/hero-header/img-desktop-logo@2x.png 2x
+              "
+              src="./images/hero-header/img-desktop-logo@1x.png"
+              alt="company `s logo"
+              class="header-logo-img"
+              width="200"
+            />
+          </a>
+          <button
+            type="button"
+            class="menu-button"
+            data-menu-button
+            aria-expanded="false"
+          >
+            <svg
+              width="20"
+              height="20"
+              aria-label="Переключатель мобильного меню"
+            >
+              <use
+                class="icon-cross"
+                href="./images/icons/symbol-defs.svg#icon-close"
+              ></use>
+              <use
+                class="icon-menu"
+                href="./images/icons/symbol-defs.svg#icon-Burger"
+              ></use>
+            </svg>
+          </button>
+          <button
+            type="button"
+            class="
+              header-order-btn__tabl
+              button-glitter button-glitter--white
+              button-not-static
+            "
+            data-modal-open
+          >
+            <span class="header-order-text">Buy now</span>
+            <svg width="8" height="10">
+              <use
+                class="header-order-img"
+                href="./images/icons/symbol-defs.svg#header-vector1"
+              ></use>
+            </svg>
+          </button>
+        </div>
+        <div class="menu-container" data-menu>
+          <button
+            type="button"
+            class="header-order-btn button-glitter button-glitter--white"
+            data-modal-menu-open
+            data-menu-link
+          >
+            <span class="header-order-text">Buy now</span>
+            <svg width="8" height="10">
+              <use
+                class="header-order-img"
+                href="./images/icons/symbol-defs.svg#header-vector1"
+              ></use>
+            </svg>
+          </button>
+          <ul class="navigation-list list">
+            <li class="navigation-item">
+              <a href="#header" class="navigation-link link" data-menu-link
+                >Home</a
+              >
+            </li>
+            <li class="navigation-item">
+              <a href="#about-us" class="navigation-link link" data-menu-link
+                >About us</a
+              >
+            </li>
+            <li class="navigation-item">
+              <a href="#made" class="navigation-link link" data-menu-link
+                >How it’s made?</a
+              >
+            </li>
+            <li class="navigation-item">
+              <a href="#products" class="navigation-link link" data-menu-link
+                >Our products</a
+              >
+            </li>
+            <li class="navigation-item">
+              <a href="#contacts" class="navigation-link link" data-menu-link
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div>
+        <div class="hero-title">
+          <h1 class="hero-title-text">
+            <span class="hero-title-part">ice cream</span>
+            <span class="hero-title-part">made with</span>
+            <span class="hero-title-accent">passion</span>
+          </h1>
+          <a href="#products" class="hero-button-product link button-glitter"
+            >Products</a
+          >
+          <a
+            href="#made"
+            class="hero-button-made link button-glitter button-glitter--white"
+            >How it’s made?</a
+          >
+        </div>
+        <div class="hero-secondary">
+          <div class="hero-text">
+            <p class="hero-text-item">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et
+            </p>
+            <a
+              href="##"
+              class="
+                hero-text-crossing
+                link
+                button-glitter button-glitter--white
+              "
+            >
+              <svg width="8" height="8">
+                <use
+                  class="hero-crossing-img"
+                  href="./images/icons/symbol-defs.svg#icon-right-arrow"
+                ></use>
+              </svg>
+            </a>
+          </div>
+
+          <ul class="hero-number-sale-list list">
+            <li class="hero-number-sale">
+              <p class="hero-number-number">16</p>
+              <p class="hero-number-text">cafes</p>
+            </li>
+            <li class="hero-number-sale">
+              <p class="hero-number-number">23</p>
+              <p class="hero-number-text">food trucks</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+</html>
